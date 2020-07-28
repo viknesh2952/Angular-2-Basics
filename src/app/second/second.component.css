@@ -1,0 +1,14 @@
+tr.even{
+    background-color: rgb(11, 240, 240);
+    color: rgb(255, 8, 0);
+}
+tr.odd{
+    background-color: rgb(34, 93, 95);
+    color: rgb(228, 229, 143);
+}
+tr.first{
+    background-color: darkorchid;
+}
+tr.last{
+    background-color: rgb(196, 75, 59);
+}

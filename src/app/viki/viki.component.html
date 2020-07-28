@@ -1,0 +1,16 @@
+Angular 
+<span class="label label-warning">Label</span>
+<input type="text" [(ngModel)]="mytext"/>{{mytext}}
+<br><br>
+<table style="border:2px solid black;">
+    <tr>
+      <td>S.no</td>
+      <td>Name</td>
+      <td>Gender</td>
+    </tr>
+    <tr *ngFor="let record of records;let sno=index;let evenRecord=even;let oddRecord=odd;let firstRecord=first;let lastRecord=last;" [ngClass]="{odd:oddRecord,even:evenRecord,first:firstRecord,last:lastRecord}">
+      <td>{{sno+1}}</td>
+      <td>{{record.name | maleorfemale:record.gender}}</td>
+      <td>{{record.gender  | uppercase }}</td>
+    </tr>
+</table>

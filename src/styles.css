@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  .example-icon {
+    padding: 0 14px;
+    color:red;
+  }
+  .mat-toolbar{
+      background-color: black;
+      color:white;
+      z-index: 4;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-drawer{
+      background-color: rgb(153, 29, 7);
+}
+ .mat-list-base .mat-list-item{
+    color:white;
+}
+.mat-list-item:hover{
+    color:rgb(241, 207, 10);
+}
